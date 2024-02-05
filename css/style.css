@@ -1,0 +1,152 @@
+body {
+    background-color: hsl(217, 54%, 11%);
+  }
+
+   .master{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    margin-top: 80px;
+  } 
+
+  .cover {
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: hsla(178, 100%, 50%, 0.533);
+    cursor: pointer;
+    transition: opacity 400ms ease-in-out;
+  }
+  .image-section:hover .cover {
+    opacity: 1;
+  }
+  
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 20px;
+    width: 290px;
+    border-radius: 33px;
+    margin-bottom: 10%;
+    box-shadow: 8px 8px 10px -4px rgba(0, 0, 0, 0.263);
+    background-color: hsl(216, 50%, 16%);
+  }
+
+  .container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  h2 {
+    font-family: Outfit, sans-serif;
+    color: rgb(255, 255, 255,.7);
+    transition: 400ms ease-out;
+  }
+  p {
+    font-family: Outfit, sans-serif;
+    color: hsl(215, 51%, 70%);
+  }
+  
+  h2:hover {
+    color: rgb(112, 112, 176);
+    cursor: default;
+  }
+  
+  h2 {
+    font-size: 24px;
+  }
+
+  .image-section > img {
+      border-radius: 33px;
+  }
+
+  .image-section {
+    height: 290px;
+    width: 290px;
+    position: relative;
+  }
+
+  p {
+    font-size: 17px;
+  }
+  
+  hr {
+    border: 1px solid hsl(215, 32%, 27%);
+    /* border-color: hsl(215, 32%, 27%); */
+    width: 100%;
+  }
+  
+  .eth {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  .eth > p {
+    font-weight: 600;
+    color: rgb(112, 112, 176);
+  }
+  
+  .expire-time > p {
+    color: hsl(215, 51%, 70%);
+  }
+  
+  .expire-time {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+  }
+  
+  .author {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+  }
+  
+  .author > img {
+    border: 1px solid white;
+    border-radius: 32px;
+  }
+  
+  .author {
+    transition: 200ms ease-in-out;
+    color: white;
+  }
+  
+  .author:hover {
+    color: rgb(112, 112, 176);
+    cursor: pointer;
+  }
+  
+  .author-text {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6px;
+  }
+
+  footer {
+    text-align: center;
+    padding: 2px;
+    background-color: hsl(215, 51%, 15%);
+    color: hsl(0, 0%, 100%);
+    margin-top: .2%; /* Push the footer to the bottom */
+
+  }
+  
+  a {
+
+    color: rgb(19, 212, 212);
+  }
